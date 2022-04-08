@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0;
+}
+
+header.home {
+    background-image: url('/img/fundo-inicio.png');
+    min-height: 600px;
+}
+
+.ul_acoes li {
+    list-style: none;
+    background: rgba(0, 0, 0, 0.028);
+    margin-left: 5px;
+    height: 40px;
+    line-height: 40px;
+}
+
+@media(max-width:500px) {
+    .btn_acoes {
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+}
+
+#image_acao {
+    width: 40px;
+    height: 35px;
+}
